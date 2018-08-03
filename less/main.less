@@ -1,0 +1,23 @@
+body {
+	padding: 0 50px;
+	background-color: #f4f4f4;
+}
+
+#table {
+	font-family: sans-serif;
+}
+
+.search-field {
+	margin-bottom: 5px;
+}
+
+// Необходимо для закрепления "перетаскивающего" курсора в окне браузера
+body.grabbing {
+	cursor: grabbing;
+	cursor: -webkit-grabbing;
+	user-select: none;
+
+	.drag-drop {
+		cursor: inherit;
+	}
+}
